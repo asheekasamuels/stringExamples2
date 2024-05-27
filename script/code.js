@@ -79,3 +79,22 @@ please create an application that will let users submit their ID number using an
 - Day/month/year
 - Gender: Male or Female    
 */
+
+// console.log ('our lecturer's name is Joel');
+
+// console.log("our lecturer's name is Joel");
+
+// (function addition (numb1, numb2) {
+//     console.log(numb1 + numb2); 
+// })(5, 6)
+
+function loop(cnt, limit) {
+    if (cnt > limit) {
+        return
+    } else {
+        console.log(cnt);
+        loop(cnt + 1, limit);
+    }
+
+}
+loop(0, 10)
